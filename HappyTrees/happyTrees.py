@@ -1,7 +1,7 @@
 '''
 Created on Jan 2, 2014
 
-@author: Kristin
+@author: Kristin Henry @KristinHenry
 '''
 
 import os
@@ -159,6 +159,7 @@ def makeMosaic():
 
     # sorting, so that trees lower in the image are drawn last
     boxes.sort(key=lambda tup: tup[1])
+   
 
     a = 0
     while a < mx:
